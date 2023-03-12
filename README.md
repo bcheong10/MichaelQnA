@@ -15,6 +15,10 @@ This script sets up the telegram bot MichaelQnA (@TeleMichaelBot). It uses the p
 User queries can be in the form of a text input or a voice message on telegram. SpeechRecognition is used to transcribe the voice message into text before loading 
 the user query into the DistilBERT model.
 
+Example of a context txt file
+![Screenshot](context.png)
+This txt file contains the context which allows the AI model to draw information from. This file can be edited to suit the business' needs
+
 ### Relevant Info
 pyTelegramBotAPI: https://pytba.readthedocs.io/en/latest/index.html
 
