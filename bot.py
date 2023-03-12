@@ -3,7 +3,7 @@ import requests, pyaudio, speech_recognition as sr  # For querying context
 from pydub import AudioSegment   # To create a PCM .wav file
 
 # Uses pyTelegramBotAPI to create bot
-TELE_BOT_TOKEN = '5691095287:AAGNxj2Rbh7IKLBVm0f1v0UBlZPfYhcoXxk'
+TELE_BOT_TOKEN = 'TeleToken'
 bot = telebot.TeleBot(TELE_BOT_TOKEN)
 
 # Global variables
@@ -13,7 +13,7 @@ username = ""
 contact = "+65 61234567"
 
 # Uses "distilbert-base-cased-distilled-squad" model from HuggingFace
-HF_API_TOKEN = "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"
+HF_API_TOKEN = "HuggingFaceToken"
 HF_API_URL = "https://api-inference.huggingface.co/models/distilbert-base-cased-distilled-squad"
 headers = {"Authorization": f"Bearer {HF_API_TOKEN}"}
 
